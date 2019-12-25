@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="drivetrek_colorPrimary">#004B8D</color>
+    <color name="drivetrek_colorPrimaryDark">#003B7A</color>
+    <color name="drivetrek_colorAccent">#28ABFF</color>
+
+    <color name="colorPrimary">@color/drivetrek_colorPrimary</color>
+    <color name="colorPrimaryDark">@color/drivetrek_colorPrimaryDark</color>
+    <color name="colorAccent">@color/drivetrek_colorAccent</color>
+
+
+    <attr format="reference" name="actionToolBarStyle"/>
+    <attr format="reference" name="outlineButtonStyle"/>
+    <attr format="color" name="tabBackgroundColor"/>
+    <attr format="color" name="toolbarAccent"/>
+    <color name="drivetrekOrange">#f15a22</color>
+    <color name="dtk_button_disabled_color">#1F000000</color>
+    <color name="dtk_button_disabled_text_color">#42000000</color>
+    <color name="dtk_compound_icon_dark_color">#444444</color>
+    <color name="dtk_compound_icon_hint_color">#1F444444</color>
+    <color name="dtk_currency_negative_red">#d03434</color>
+    <color name="dtk_currency_positive_green">#5fb957</color>
+    <color name="dtk_dark_grey">#D7D7D7</color>
+    <color name="dtk_dark_tab_indicator_color">#70000000</color>
+    <color name="dtk_darker_grey">#BABABA</color>
+    <color name="dtk_graph_bad">#DEFF0101</color>
+    <color name="dtk_graph_good">#DE60B958</color>
+    <color name="dtk_graph_highlight_text">#DE444444</color>
+    <color name="dtk_graph_history">#1F444444</color>
+    <color name="dtk_graph_ok">#DEFAAF3A</color>
+    <color name="dtk_graph_text">#FFCCCCCC</color>
+    <color name="dtk_light_grey">#ECECEC</color>
+    <color name="dtk_light_tab_text_color">#42000000</color>
+    <color name="dtk_marked_selector_line_color">#25444444</color>
+    <color name="dtk_marked_selector_text_color">#36444444</color>
+    <color name="dtk_medium_grey">#E3E3E3</color>
+    <color name="dtk_netcare_dark_tab_indicator_color">#EEB973</color>
+    <color name="dtk_orange">#F15A22</color>
+    <color name="dtk_raised_button_text_color">#DE444444</color>
+    <color name="dtk_remedi_dark_tab_indicator_color">#8898AA</color>
+    <color name="dtk_ringed_view_default_background">#E0E0E0</color>
+    <color name="dtk_ringed_view_gradient_end">#b1701f</color>
+    <color name="dtk_ringed_view_gradient_start">#fb8c00</color>
+    <color name="dtk_stepper_inactive">#61444444</color>
+    <color name="dtk_text_dark">#000000</color>
+    <color name="divider">#DADADA</color>
+    <color name="eapColor">#0D526A</color>
+    <color name="empty_color">#CCCCCC</color>
+    <color name="gapColor">#41b4ba</color>
+    <color name="gepColor">#61879c</color>
+    <color name="vit_blue">#4374EA</color>
+    <color name="vit_bronze">#9F7F54</color>
+    <color name="vit_diamond">#CCCCCC</color>
+    <color name="vit_gold">#F7B851</color>
+    <color name="vit_silver">#9C9C9C</color>
+    <color name="vit_standing_man_icon">#CCCCCC</color>
+    <color name="vitalityColor">#FF5A22</color>
+    <color name="white">#FFFFFF</color>
+    <color name="wlr_over_achieved">#FDB913</color>
+    <color name="wlr_weight_gained_colour">#875CAE</color>
+    <color name="wlr_weight_lost_colour">#26B8FA</color>
+
+    <!-- 50 shades -->
+    <color name="standard_dark_gray">#545454</color>
+    <color name="textGrey">#555555</color>
+    <color name="lightGrey">#ffedebeb</color>
+    <color name="dividerGray">#afafaf</color>
+    <color name="drivetrekGray">#6d6f71</color>
+    <color name="buttonText">#6d6f71</color>
+    <color name="labelGrey">#555555</color>
+    <color name="border_gray">#C7C7C7</color>
+    <color name="darker_gray">#6f6f70</color>
+    <color name="borderGrey">#FFc4c4c4</color>
+</resources>

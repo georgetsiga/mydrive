@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/gutterSpaceDouble"
+            android:layout_marginStart="@dimen/gutterSpace"
+            android:layout_marginEnd="@dimen/gutterSpace"
+            app:srcCompat="@drawable/ic_logo"
+            android:contentDescription="@string/company_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_margin="@dimen/gutterSpace"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            app:layout_constraintEnd_toEndOf="@+id/imageLogo"
+            app:layout_constraintStart_toStartOf="@+id/imageLogo"
+            app:layout_constraintTop_toBottomOf="@+id/imageLogo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:layout_margin="@dimen/gutterSpace"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            app:layout_constraintEnd_toEndOf="@+id/email"
+            app:layout_constraintStart_toStartOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/email"/>
+
+        <TextView
+            android:id="@+id/txtforgotpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/gutterSpaceHalf"
+            android:layout_marginEnd="@dimen/gutterSpace"
+            android:layout_marginStart="@dimen/gutterSpace"
+            android:textColor="@color/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Forgot Password?"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnlogin"
+            app:layout_constraintTop_toBottomOf="@+id/password" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_margin="@dimen/gutterSpace"
+            app:layout_constraintEnd_toEndOf="@+id/txtforgotpwd"
+            app:layout_constraintStart_toStartOf="@+id/txtforgotpwd"
+            app:layout_constraintTop_toBottomOf="@+id/txtforgotpwd" />
+
+        <LinearLayout
+            android:id="@+id/layOr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintStart_toStartOf="@+id/btnlogin"
+            app:layout_constraintTop_toBottomOf="@+id/btnlogin" >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.8"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="0.1"
+                android:text="or"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.8"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/txtviewsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:layout_margin="@dimen/gutterSpace"
+            app:layout_constraintStart_toStartOf="@+id/layOr"
+            app:layout_constraintTop_toBottomOf="@+id/layOr" />
+
+        <TextView
+            android:id="@+id/txtversionCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/gutterSpaceDouble"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@+id/txtviewsignup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="@string/app_version" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

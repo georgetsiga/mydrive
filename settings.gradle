@@ -1,0 +1,2 @@
+include ':drivetrekConsumerApp', ':shared'
+rootProject.name='MyDrive'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PercentageDial">
+        <attr format="color" name="percentageTextColor"/>
+        <attr format="color" name="labelTextColor"/>
+        <attr format="color" name="dialColor"/>
+        <attr format="color" name="dialProgressColor"/>
+        <attr format="string" name="labelText"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorStarRating">
+        <attr format="color" name="dtk_orange"/>
+        <attr format="boolean" name="changeable"/>
+    </declare-styleable>
+</resources>

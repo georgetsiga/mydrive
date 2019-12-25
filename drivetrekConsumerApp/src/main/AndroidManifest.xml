@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="za.co.drivetrek.mydrive">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- allow device to use internet -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- get access to camera -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- get connection status of device -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- write data like bitmaps -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- read data like bitmaps -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- allow app to use call function -->
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- gets all apps installed -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- gps -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- keep device awake but not used -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- google play services -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- relates to database if removed crashes app ask Zola for more info -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- add contacts -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- receive google push notifications -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- always on wifi state -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- always on connect to wifi -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- Firebase -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Voice bio -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/dtk_AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.DashboardActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>
