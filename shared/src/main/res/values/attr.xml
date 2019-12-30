@@ -12,4 +12,16 @@
         <attr format="color" name="dtk_orange"/>
         <attr format="boolean" name="changeable"/>
     </declare-styleable>
+
+    <declare-styleable name="ProgressRingWidget">
+        <attr format="reference" name="aps_iconDrawable"/>
+        <attr format="dimension" name="aps_innerPadding"/>
+        <attr format="dimension" name="aps_ringWidth"/>
+        <attr format="color" name="aps_ringColorStart"/>
+        <attr format="color" name="aps_ringColorEnd"/>
+        <attr format="integer" name="aps_progress"/>
+        <attr format="float" name="aps_iconScale"/>
+        <attr format="integer" name="aps_maxValue"/>
+        <attr format="color" name="aps_ringBackgroundColor"/>
+    </declare-styleable>
 </resources>

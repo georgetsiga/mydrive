@@ -95,6 +95,7 @@
     <dimen name="gutterSpace">16dp</dimen>
     <dimen name="gutterSpaceDouble">32dp</dimen>
     <dimen name="gutterSpaceHalf">8dp</dimen>
+    <dimen name="gutterSpaceQuarter">4dp</dimen>
     <dimen name="img_on_boarding_size">160dp</dimen>
     <dimen name="info_chip_hairline">1dp</dimen>
     <dimen name="line_graph_marker_height">35dp</dimen>

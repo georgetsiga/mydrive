@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="drivetrek_colorPrimary">#004B8D</color>
-    <color name="drivetrek_colorPrimaryDark">#003B7A</color>
+    <color name="drivetrek_colorPrimary">#165A96</color>
+    <color name="drivetrek_colorPrimaryDark">#275c9d</color>
     <color name="drivetrek_colorAccent">#28ABFF</color>
 
     <color name="colorPrimary">@color/drivetrek_colorPrimary</color>
